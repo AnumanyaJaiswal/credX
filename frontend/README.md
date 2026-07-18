@@ -1,16 +1,28 @@
-# React + Vite
+# Premium AI Recruitment Company Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A polished, responsive company dashboard built for an AI-powered recruitment platform. It focuses exclusively on job post management and AI-matched candidate review with a premium UI inspired by modern SaaS products.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Premium dashboard shell with a refined sidebar and header
+- Two stat cards for active job volume and AI match coverage
+- Job post cards with status, metadata, and match actions
+- Interactive create-job modal with validation and chip-based skills input
+- Responsive matched-candidates table with animated rows and rich badges
 
-## React Compiler
+## Run locally
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+cd frontend
+npm install
+npm run dev -- --host 0.0.0.0 --port 5173
+```
 
-## Expanding the ESLint configuration
+Open http://localhost:5173/ to view the dashboard.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Build
+
+```bash
+cd frontend
+npm run build
+```
