@@ -8,4 +8,5 @@ export default {
     Login,
     CompanyDashboard,
     AdminDashboard
+    StudentDashboard,
 }
