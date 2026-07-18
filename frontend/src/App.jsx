@@ -5,18 +5,18 @@ import "./App.css";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Navigate to="/company-dashboard" replace />} />
-      {/* <Route path="/" element={<Navigate to="/login" replace />} />
+      {/* <Route path="/" element={<Navigate to="/company-dashboard" replace />} /> */}
+      <Route path="/" element={<Navigate to="/login" replace />} />
 
       <Route path="/login" element={<Pages.Login />} />
 
-      <Route path="/signup" element={<Pages.Signup />} /> */}
+      <Route path="/signup" element={<Pages.Signup />} />
 
-      <Route
+      {/* <Route
         path="/company-dashboard"
         element={<Pages.CompanyDashboard />}
       />
-      <Route path="*" element={<Navigate to="/company-dashboard" replace />} />
+      <Route path="*" element={<Navigate to="/company-dashboard" replace />} /> */}
     </Routes>
   );
 }
